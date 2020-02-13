@@ -13,7 +13,7 @@
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
- * limitations under the License.
+ * limitations under the License. hi 
 */
 
 var JEEFACETRANSFERAPI=(function(){function ja(b){var c=new XMLHttpRequest;c.open("GET",a.Sa+a.save,!0);c.withCredentials=!1;c.onreadystatechange=function(){4===c.readyState&&200===c.status&&b(c.responseText)};c.send()}function wa(){var b=a.wb,c=Array(b),e;for(e=0;e<b;++e)c[e]=0;return c}function za(b,c,e){b=Math.min(Math.max((e-b)/(c-b),0),1);return b*b*(3-2*b)}function Aa(b,c,e){return Math.min(Math.max((e-b)/(c-b),0),1)}function Ca(b,c,e,g){return Math.pow(Math.min(Math.max((g-b)/(c-b),0),1),e)}
